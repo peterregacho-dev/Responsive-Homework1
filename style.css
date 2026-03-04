@@ -1,0 +1,164 @@
+/* ======================
+   MOBILE VIEW (Default)
+   ====================== */
+
+body {
+  margin: 0;
+  background-color: #dedede;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: #1f3c88;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+main {
+  padding: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+div {
+  width: 90%;
+  margin: 15px auto;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* ======================
+   TABLET VIEW (772px)
+   ====================== */
+
+@media screen and (min-width: 772px) {
+
+  div {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  img {
+    max-height: 30vh;
+  }
+
+}
+
+/* ======================
+   LARGE SCREEN (998px)
+   ====================== */
+
+@media screen and (min-width: 998px) {
+
+  div {
+    width: 30%;
+  }
+
+}
+
+
+
+
+
+
+
+/* 
+main {
+    border: 5px #000 solid;
+    margin: 10px;
+}
+ */
+/* 
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+ */
+/* img{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+} */
+
+/* .child {
+    position: relative;
+    display: inline-block;
+    border: 5px black solid;
+    margin: 5px;
+    border-radius: 5px;
+} */
+
+/* 
+
+.label {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+} */
+/* 
+.button {
+    display: inline-block;
+    border: 2px solid #000;
+    padding: 5px;
+    border-radius: 25px;
+}
+ */
+/* 
+.button:hover {
+    background-color:#fff;
+} */
+
+/* 
+footer {
+    display: flex;
+    justify-content: center;
+} */
+
+/* 
+header {
+    border-radius: 5px;
+    border: 5px #000 solid;
+    margin: 10px;
+} */
+
+/* 
+.label {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+} */
+/* 
+.child:hover .label {
+    display: block;
+} */
